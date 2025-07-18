@@ -40,5 +40,18 @@ Retail supply chains face unpredictable demand, transportation delays, and facil
 - **Streamlit** for interactive dashboard
 - **NumPy**, **Pandas**, **Matplotlib** for data handling and visualization
 
+---
+
+## Project Structure
+
+smartchain/
+│
+├── supply_chain_discrete_env.py     # Custom OpenAI Gym environment simulating supply chain dynamics
+├── train_agent.py                   # Script to train PPO agent using Stable-Baselines3
+├── dashboard.py                     # Streamlit dashboard to visualize and compare agent performance
+├── smartchain_ppo_default_model/    # Folder containing trained PPO model and configuration files
+├── requirements.txt                 # Python dependencies required to run the project
+└── README.md                        # Project overview, usage instructions, and documentation
+
 
 
